@@ -1,3 +1,11 @@
 <%- include('header'); -%>
-
+<div class="container page-content">
+  <h2 class="headings"><%=homeTitle %></h2>
+  <p><%= homeContent%></p>
+  <% for(var i = 0; i<headingss.length; i++) {%>
+  <h2 class="headings"><%= headingss[i] %> </h2>
+  <p class='a-content'>
+  <p class="content"> <%= contentss[i] %> </p><a href=<%= i %>>Read More</a></p>
+  <% } %>
+</div>
 <%- include('footer'); -%>
