@@ -1,6 +1,7 @@
-h6{
+h6 {
   font-weight: bold;
 }
+
 .container {
   margin: 10px 0;
 }
@@ -21,29 +22,32 @@ h6{
   color: #39a6a3;
 }
 
-
 .page-content {
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
 }
 
-.headings{
+.headings {
   font-weight: bold;
 }
 
-.content{
+.content {
   overflow: hidden;
   max-width: 100ch;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.a-content{
+
+.compose-button {
+  position: relative;
+  float: right;
+  margin: 0 20px;
+}
+
+.a-content {
   display: inline;
 }
 
-.btn{
-  margin: 20px 0;
-}
 #footer {
   position: fixed;
   bottom: 0;
